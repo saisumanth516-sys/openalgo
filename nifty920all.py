@@ -26,7 +26,7 @@ load_dotenv()
 
 IST = ZoneInfo("Asia/Kolkata")
 
-API_KEY = "5dfcd2bd6b8c6f726ba5123fae7e6289e05679c6633ec6cf52ab00042b1d627d"
+API_KEY = ""
 HOST = os.getenv("OPENALGO_HOST", "http://127.0.0.1:5000")
 WS_URL = os.getenv("WEBSOCKET_URL", "ws://127.0.0.1:8765")
 
